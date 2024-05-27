@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
     return (
         <main>
-            <nav className="bg-photkarimblue">
+            <nav className="bg-blue-950 text-yellow-300">
                 <div className="
                     flex flex-col items-center
                     sm:flex sm:flex-col sm:items-center
