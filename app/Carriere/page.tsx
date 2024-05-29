@@ -1,10 +1,14 @@
+import Footer from "../Components/Footer"
 import Navbar from "../Components/Navbar"
+import TimelineCarriere from "../Components/TimelineCarriere"
+
 
 export default function Page() {
     return (
         <main>
             <Navbar />
-            <h1>Hello, Carriere Page !</h1>
+            <TimelineCarriere />
+            <Footer />
         </main>
     )
 }

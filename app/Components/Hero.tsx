@@ -22,6 +22,7 @@ export default function Hero() {
             flex flex-col flex-col
             bg-blue-950 text-yellow-300
             lg:flex-row
+            pb-10
         "
         >
             <div className="flex-1">
@@ -51,7 +52,7 @@ export default function Hero() {
                         onClick={handleDownload}
                     />
                 </div>
-                <p className="text-center">
+                <p className="text-center pt-10">
                     A junior Applications Conceptor-Developer with a passion for learning
                     and creating
                 </p>
