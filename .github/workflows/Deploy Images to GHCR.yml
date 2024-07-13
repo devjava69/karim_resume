@@ -1,4 +1,4 @@
-name: Deploy Images to GHCR
+name: Deploy image to GHCR
 
 env:
   REGISTRY: ghcr.io
